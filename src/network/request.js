@@ -18,7 +18,7 @@ export function request (config) {
     // if (response.data.success === true) {
     //   return response.data.data
     // }
-    return response
+    return response.data
   }, err => {
     console.log(err)
   })
